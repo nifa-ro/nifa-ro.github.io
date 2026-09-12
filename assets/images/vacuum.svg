@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#e2e8f0"/></linearGradient>
+ <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#f8fafc"/><stop offset=".45" stop-color="#cbd5e1"/><stop offset=".6" stop-color="#fff"/><stop offset="1" stop-color="#94a3b8"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".18"/></filter>
+</defs>
+<rect width="640" height="480" rx="36" fill="url(#bg)"/>
+<ellipse cx="320" cy="420" rx="185" ry="26" fill="#0f172a" opacity=".10"/>
+<g filter="url(#shadow)">
+<g transform="rotate(17 330 240)">
+<rect x="304" y="115" width="32" height="225" rx="15" fill="#334155"/>
+<rect x="280" y="71" width="80" height="90" rx="26" fill="#374151"/>
+<circle cx="320" cy="110" r="25" fill="#2563eb"/><rect x="269" y="330" width="142" height="40" rx="18" fill="#1e293b"/>
+<rect x="285" y="343" width="110" height="12" rx="6" fill="#0ea5e9"/>
+</g></g><text x="320" y="454" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#475569">Cordless Vacuum</text></svg>

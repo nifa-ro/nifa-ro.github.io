@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#e2e8f0"/></linearGradient>
+ <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#f8fafc"/><stop offset=".45" stop-color="#cbd5e1"/><stop offset=".6" stop-color="#fff"/><stop offset="1" stop-color="#94a3b8"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".18"/></filter>
+</defs>
+<rect width="640" height="480" rx="36" fill="url(#bg)"/>
+<ellipse cx="320" cy="420" rx="185" ry="26" fill="#0f172a" opacity=".10"/>
+<g filter="url(#shadow)">
+<rect x="110" y="95" width="420" height="250" rx="12" fill="#111827"/>
+<rect x="124" y="109" width="392" height="222" rx="6" fill="#020617"/>
+<path d="M125 300C205 206 248 270 316 178c57-77 117-58 199 31v122H125Z" fill="#7c3aed"/>
+<path d="M125 270c100-105 167-64 230-130 66-69 119-17 160 30v61c-74-45-118-51-165 5-73 86-130 20-225 95Z" fill="#0ea5e9" opacity=".9"/>
+<path d="M291 344h58l11 35h-80Z" fill="#334155"/><rect x="242" y="377" width="158" height="10" rx="5" fill="#334155"/>
+</g><text x="320" y="454" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#475569">65-inch Smart TV</text></svg>

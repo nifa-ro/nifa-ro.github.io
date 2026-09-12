@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8fafc"/><stop offset="1" stop-color="#e2e8f0"/></linearGradient>
+ <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#f8fafc"/><stop offset=".45" stop-color="#cbd5e1"/><stop offset=".6" stop-color="#fff"/><stop offset="1" stop-color="#94a3b8"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".18"/></filter>
+</defs>
+<rect width="640" height="480" rx="36" fill="url(#bg)"/>
+<ellipse cx="320" cy="420" rx="185" ry="26" fill="#0f172a" opacity=".10"/>
+<g filter="url(#shadow)">
+<rect x="139" y="143" width="362" height="214" rx="18" fill="#f8fafc" stroke="#cbd5e1" stroke-width="4"/>
+<rect x="154" y="160" width="332" height="58" rx="8" fill="#e2e8f0"/>
+<g stroke="#94a3b8" stroke-width="5"><line x1="170" y1="169" x2="170" y2="209"/><line x1="192" y1="169" x2="192" y2="209"/><line x1="214" y1="169" x2="214" y2="209"/><line x1="236" y1="169" x2="236" y2="209"/><line x1="258" y1="169" x2="258" y2="209"/><line x1="280" y1="169" x2="280" y2="209"/><line x1="302" y1="169" x2="302" y2="209"/><line x1="324" y1="169" x2="324" y2="209"/><line x1="346" y1="169" x2="346" y2="209"/><line x1="368" y1="169" x2="368" y2="209"/><line x1="390" y1="169" x2="390" y2="209"/><line x1="412" y1="169" x2="412" y2="209"/><line x1="434" y1="169" x2="434" y2="209"/><line x1="456" y1="169" x2="456" y2="209"/></g>
+<g stroke="#cbd5e1" stroke-width="4"><line x1="158" y1="240" x2="479" y2="240"/><line x1="158" y1="258" x2="479" y2="258"/><line x1="158" y1="276" x2="479" y2="276"/><line x1="158" y1="294" x2="479" y2="294"/><line x1="158" y1="312" x2="479" y2="312"/><line x1="158" y1="330" x2="479" y2="330"/></g>
+<rect x="437" y="164" width="38" height="24" rx="6" fill="#0f172a"/><text x="456" y="181" text-anchor="middle" font-family="monospace" font-size="12" fill="#67e8f9">72°</text>
+</g><text x="320" y="454" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="#475569">Window Air Conditioner</text></svg>
