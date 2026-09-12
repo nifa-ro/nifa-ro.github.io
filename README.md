@@ -1,22 +1,12 @@
-# NIFA-RO Professional Store — V6
+# NIFA-RO V8 — Repaired build
 
-This version includes all prepared appliance images inside the ZIP and current price references in USD.
+This build was rebuilt to prevent missing product photos.
 
-## Included
-- Professional appliance store website
-- 8 realistic product images used on the site (`assets/images/*.webp`)
-- Original full-size product images (`assets/source-photos/*.png`)
-- Real price references on each product card
-- Product source links
-- Support section, FAQ, filters, cart, and responsive layout
-- GitHub Pages compatible root structure
+- Product cards and prices are written directly into `index.html`.
+- The eight product photos are embedded directly in `index.html`.
+- Copies of the photos are also included in `assets/photos/`.
+- There are no CSS or JavaScript files that GitHub Pages needs to locate.
+- `index.html` is at the ZIP root.
 
-## Publish
-Upload the contents of the ZIP directly to the root of your GitHub repository. Then set:
-- Settings → Pages
-- Deploy from a branch
-- Branch: `main`
-- Folder: `/(root)`
-
-## Important
-Prices may change without notice. Review all products and links before using the website commercially.
+## GitHub Pages
+Extract the ZIP and upload the files inside it directly to the repository root. Replace the old `index.html`. Use Settings → Pages → main → /(root).
