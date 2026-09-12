@@ -1,23 +1,22 @@
-# NIFA-RO Professional Store
+# NIFA-RO Professional Store — V6
 
-A static, responsive e-commerce website for a modern home-appliance brand.
+This version includes all prepared appliance images inside the ZIP and current price references in USD.
 
-## Features
-- Responsive landing page and product catalog
-- Product search and category filtering
-- LocalStorage shopping cart
-- Deals, categories, benefits, FAQ and newsletter sections
-- Dedicated customer-support area with phone, email and support form
-- GitHub Pages compatible: `index.html` is at the repository root
-- No build step and no external dependencies
-- Self-contained SVG appliance artwork
+## Included
+- Professional appliance store website
+- 8 realistic product images used on the site (`assets/images/*.webp`)
+- Original full-size product images (`assets/source-photos/*.png`)
+- Real price references on each product card
+- Product source links
+- Support section, FAQ, filters, cart, and responsive layout
+- GitHub Pages compatible root structure
 
-## Publish on GitHub Pages
-1. Upload the **contents** of this folder to the root of your repository.
-2. In GitHub go to **Settings → Pages**.
-3. Choose **Deploy from a branch**.
-4. Select **main** and **/(root)**.
-5. Save and wait for the deployment to finish.
+## Publish
+Upload the contents of the ZIP directly to the root of your GitHub repository. Then set:
+- Settings → Pages
+- Deploy from a branch
+- Branch: `main`
+- Folder: `/(root)`
 
 ## Important
-The phone number, email, product prices, policies and checkout are demo content. Replace them with verified business information before using the site commercially.
+Prices may change without notice. Review all products and links before using the website commercially.
